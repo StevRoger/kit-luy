@@ -4,9 +4,9 @@ import { AboutUsPageComponent } from './pages/about-us-page/about-us-page.compon
 import { HomePageComponent } from './pages/home-page/home-page.component';
 
 const routes: Routes = [
-  // { path: "", redirectTo: "home", pathMatch: "full" },
   { path: "home", component: HomePageComponent },
   { path: "about", component: AboutUsPageComponent },
+  { path: "**", redirectTo: "", pathMatch: "full" },
 ];
 
 @NgModule({
