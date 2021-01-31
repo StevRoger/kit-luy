@@ -1,0 +1,26 @@
+.mat-form-field {
+    font-family: $popins-base !important;
+    font-size: 14px;
+    line-height: 1.725rem;
+}
+.mat-form-field-infix {
+    border-top: 0.434564375em solid transparent;
+}
+.mat-form-field-appearance-outline {
+    .mat-form-field-infix {
+        padding: 0.8em 0 0.7em 0;
+    }
+}
+input[type="number"] {
+    &.no-arrow {
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            &:hover {
+                -webkit-appearance: none !important;
+                -moz-appearance: textfield !important;
+            }
+            -webkit-appearance: none !important;
+            -moz-appearance: textfield !important;
+        }
+    }
+}

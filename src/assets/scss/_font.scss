@@ -1,6 +1,56 @@
-/** Fonts from google */ 
+/** Fonts from google */
 @import url("https://fonts.googleapis.com/css2?family=Battambang:wght@400;700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap");
 
 .logo {
-    font-family: $inter-base;
+    font-family: $inter-base !important;
+}
+.card-title,
+.card-subtitle {
+    font-family: $popins-base !important;
+}
+p {
+    font-size: 1rem;
+}
+
+.h1, h1 {
+    font-size: calc(1.375rem + 1.5vw) !important;
+}
+@media (min-width: 1200px) {
+    .h1, h1 {
+        font-size: 2.5rem !important;
+    }
+}
+.h2, h2 {
+    font-size: calc(1.325rem + 0.9vw) !important;
+}
+@media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 2rem !important;
+    }
+}
+.h3, h3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+}
+@media (min-width: 1200px) {
+    .h3, h3 {
+        font-size: 1.75rem !important;
+    }
+}
+.h4, h4 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+}
+@media (min-width: 1200px) {
+    .h4, h4 {
+        font-size: 1.5rem !important;
+    }
+}
+.h5, h5 {
+    font-size: 1.25rem !important;
+}
+.h6, h6 {
+    font-size: 1rem !important;
+}
+
+.board-title {
+    font-weight: 500 !important;
 }

@@ -1,0 +1,10 @@
+<h5 mat-dialog-title class="card-title" style="font-weight: 500;">New Bill Name</h5>
+<div mat-dialog-content position="Top">
+    <mat-form-field appearance="outline" class="w-100">
+        <mat-label>Bill Name</mat-label>
+        <input matInput placeholder="Wifi" [(ngModel)]="data.name">
+    </mat-form-field>
+</div>
+<div mat-dialog-actions>
+    <button mat-raised-button [mat-dialog-close]="data.name" color="primary" class="btn-block">Add</button>
+</div>

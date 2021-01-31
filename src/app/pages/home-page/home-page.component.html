@@ -3,9 +3,15 @@
         <div class="col-12 text-center">
             <h4 class="card-title logo">KIT LUY</h4>
         </div>
-        <div class="col-12 col-md-5">
-            <h1 class="card-title title">Welcome to KitLuy</h1>
-            <p class="card-text">Where you can calculate your home bill just a few clicks.</p>
+        <div class="col-12 col-md-5 d-flex justify-content-start title-wrapper">
+            <div class="my-auto">
+                <h1 class="card-title title" data-aos="fade-right" data-aos-duration="700">Welcome to <span>KitLuy</span></h1>
+                <p class="card-subtitle mb-3" data-aos="fade-right"data-aos-duration="9000">Where you can calculate your home bills with just a few clicks.</p>
+
+                <button mat-raised-button data-aos="fade-right"data-aos-duration="1000" class="btn-lg-home" color="primary" (click)="onStart()">Get Start <span class="material-icons">
+                        arrow_forward</span>
+                </button>
+            </div>
         </div>
         <div class="col-12 col-md-7">
             <img src="assets/image/svg/research.svg" alt="primary-image" class="primary-bg-img">
