@@ -39,7 +39,7 @@ export class OperationComponent implements OnInit {
   onAddMoreBill(name: string) {
     let subBill: OtherBillModel = new OtherBillModel();
     subBill.name = name;
-    this.record.other_bills.unshift(subBill);
+    this.record.other_bills.push(subBill);
   }
 
   onCuculate() {
